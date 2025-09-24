@@ -12,30 +12,38 @@
        Turn off the bullet display with CSS, since navigation doesn't use it. Also, you'll need to 
        create hyperlinks inside each of the list items so that the menu is clickable. There is nowhere 
        for the link to go (this is all a pretend menu), so use an empty href attribute:
-        <li><a href="">linked text</a></li>. Also remember that nested lists go inside the 
+        <code> &lt;li&gt;&lt;a href=""&gt;linked text&lt;/a&gt;&lt;/li&gt; </code>. Also remember that nested lists go inside the 
         parent list item.
     </p>
 
-Planets
-Mercury
-Venus
-Earth
-Mars
-Jupiter
-Saturn
-Uranus
-Neptune
+<ul>
+    <li style="list-style-type:none;">
+        <a href="">Planets</a>
+            <ul style="list-style-type:none;">
+                <li><a href="">Mercury</a></li>
+                <li><a href="">Venus</a></li>
+                <li><a href="">Earth</a></li>
+                <li><a href="">Mars</a></li>
+                <li><a href="">Jupiter</a></li>
+                <li><a href="">Saturn</a></li>
+                <li><a href="">Uranus</a></li>
+                <li><a href="">Neptune</a></li>
+            </ul>
+    </li>
+</ul>
 Dwarf Planets
 Ceres
 Pluto
 Haumea
 Makemake
 Eris
+
 Planetoids
 Asteroids
 The Kuiper Belt
 Detached Objects
 The Oort Cloud
+
 Space Junk
 Dead Spacecraft
 Lost Equipment
